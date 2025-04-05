@@ -8,7 +8,7 @@
             "name": "Cmake Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${command:cmake.launchTargetPath}",
+            "program": "${workspaceFolder}/build/src/application",            
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
