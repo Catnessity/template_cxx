@@ -1,0 +1,12 @@
+// tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "execute build.sh",
+            "type": "shell",
+            "command": "bash",
+            "args": ["${workspaceFolder}/build.sh"] 
+        }
+    ]
+}
